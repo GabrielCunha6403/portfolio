@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.card-container {
+  width: fit-content;
+  margin-bottom: 16px;
+}
+pre {
+  background: black;
+  padding: 2rem;
+  margin: 0;
+  border-radius: 1rem;
+  width: 168px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .1s;
+}
+pre::before,
+pre::after {
+  content: '';
+  position: absolute;
+  border-radius: inherit;
+}
+pre::after {
+  transition: 2s;
+}
+pre::before {
+  inset: .75rem;
+  background: black;
+  transform: translateZ(-24px);
+  filter: blur(15px);
+  opacity: .5;
+}
+pre::after {
+  inset: -.5rem;
+  background: linear-gradient(-45deg, rgb(48, 0, 0), rgb(255, 0, 0));
+  transform: translateZ(-25px);
+}
+pre:hover {
+  transform:
+    perspective(5000px)
+    rotateY(var(--rotateX))
+    rotateX(var(--rotateY));
+}
