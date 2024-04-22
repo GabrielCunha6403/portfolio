@@ -1,0 +1,56 @@
+:root {
+  --colorPrimary: red;
+  --colorSecondary: black
+}
+body {
+  background: linear-gradient(315deg, var(--colorPrimary), black);
+}
+.neon {
+  /* background: red; */
+  background: transparent;
+  color:  linear-gradient(270deg,  var(--colorSecondary), var(--colorPrimary));
+  font-family: Consolas;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: 0px 0px 3px var(--colorPrimary);
+  border: 0;
+  padding: 5px 16px;
+  border-radius: 5px;
+  transition: .2s;
+  overflow: hidden;
+  position: relative;
+}
+.neon::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  background: linear-gradient(90deg, transparent, var(--colorPrimary));
+}
+.neon::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  right: -100%;
+  bottom: 0;
+  background: linear-gradient(270deg, transparent, var(--colorPrimary));
+}
+.neon:hover {
+  cursor: pointer;
+  background: var(--colorPrimary);
+  color: black;
+  text-shadow: 0px 0px 3px black;
+  transition-delay: .25s;
+  box-shadow: 0 0 6px 2px var(--colorPrimary), 0 0 10px 3px var(--colorPrimary);
+}
+.neon:hover::before {
+  transition: .5s;
+  right: 100%;
+}
+.neon:hover::after {
+  transition: .5s;
+  left: 100%;
+}

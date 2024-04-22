@@ -22,14 +22,14 @@ export class FloatCardComponent implements OnInit {
   }
 
   rotateCard(event, element) {
-    const x = event.clientX;
-    const y = event.clientY;
-    const middleX = /*window.innerWidth*/ element.style.width / 2; //element.offsetWidth
-    const middleY = /*window.innerHeight*/  element.style.height / 2; //element.offsetHeight
-    const offsetX = ((x - middleX) / middleX) * 45;
-    const offsetY = ((y - middleY) / middleY) * 45;
-    element.style.setProperty("--rotateX", offsetX + "deg");
-    element.style.setProperty("--rotateY", -offsetY + "deg");
+    const rect = element.getBoundingClientRect();
+    const middleX = rect.left + rect.width / 2;
+    const middleY = rect.top + rect.height / 2;
+    const offsetX = ((event.clientX - middleX) / middleX) * 45; // Reduzir o multiplicador se o efeito for muito forte
+    const offsetY = ((event.clientY - middleY) / middleY) * 45;
+
+    element.style.setProperty("--rotateX", `${offsetX}deg`);
+    element.style.setProperty("--rotateY", `${-offsetY}deg`);
   }
 
 }

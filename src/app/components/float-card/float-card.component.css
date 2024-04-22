@@ -15,7 +15,7 @@ pre {
   width: 168px;
   position: relative;
   transform-style: preserve-3d;
-  transition: .1s;
+  /* transition: .1s; */
 }
 pre::before,
 pre::after {
@@ -24,7 +24,7 @@ pre::after {
   border-radius: inherit;
 }
 pre::after {
-  transition: 2s;
+  transition: .5s;
 }
 pre::before {
   inset: .75rem;
@@ -34,13 +34,21 @@ pre::before {
   opacity: .5;
 }
 pre::after {
+  transition: .5s;
   inset: -.5rem;
-  background: linear-gradient(-45deg, rgb(48, 0, 0), rgb(255, 0, 0));
+  background: linear-gradient(-45deg, var(--colorPrimary), var(--colorSecondary));
   transform: translateZ(-25px);
+}
+pre:hover::before {
+  transform: translateZ(-49px);
+}
+pre:hover::after {
+  transform: translateZ(-50px);
 }
 pre:hover {
   transform:
     perspective(5000px)
     rotateY(var(--rotateX))
-    rotateX(var(--rotateY));
+    rotateX(var(--rotateY))
+    translateZ(50px);
 }
