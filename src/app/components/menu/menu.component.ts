@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -23,6 +23,18 @@ export class MenuComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll(e) {
+    const windowScroll = window.scrollY;
+    console.log(windowScroll);
+
+    if (windowScroll == 0) {
+      document.querySelector('.menu').classList.add('fixed-top');
+    } else {
+      document.querySelector('.menu').classList.remove('fixed-top');
+    }
   }
 
   setColorScheme() {

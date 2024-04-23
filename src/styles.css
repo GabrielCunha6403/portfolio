@@ -4,6 +4,10 @@
 }
 body {
   background: linear-gradient(315deg, var(--colorPrimary), black);
+  min-height: 100vh;
+}
+button:focus {
+  outline: none;
 }
 .neon {
   /* background: red; */

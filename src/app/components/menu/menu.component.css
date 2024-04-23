@@ -14,8 +14,12 @@
 .menu:hover {
   background: black;
 }
+.fixed-top {
+  background: black;
+}
 .menu ul {
   list-style: none;
+  margin: 12px 0;
   display: flex;
 }
 .menu ul li {
