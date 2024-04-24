@@ -39,9 +39,9 @@
       <h2>Lorem</h2>
       <span class="line-divider"></span>
       <div class="row">
-        <app-card class="col-md-6" *ngFor="let project of projects" [project]="project"></app-card>
+        <app-card class="col-md-6" *ngFor="let project of projects; let i = index" [project]="project" (click)="openModal(i)"></app-card>
       </div>
     </div>
   </section>
 </div>
-<app-modal></app-modal>
+<app-modal [visible]="isModalVisible" [project]="projectView" (close)="closeModal($event)"></app-modal>

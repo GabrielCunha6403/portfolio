@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Project } from 'src/app/models/project';
+import { Project, ProjectDetail } from 'src/app/models/project';
 import * as data from '../../../assets/data/data.json';
 
 @Component({
@@ -9,13 +9,24 @@ import * as data from '../../../assets/data/data.json';
 })
 export class HomeComponent implements OnInit {
 
-  projects: Project[] = []
+  projects: ProjectDetail[] = []
+  isModalVisible: boolean = false;
+  projectView: ProjectDetail = null;
 
   constructor() {
-    this.projects = data.projects as Project[];
+    this.projects = data.projects as ProjectDetail[];
   }
 
   ngOnInit(): void {
+  }
+
+  openModal(index: number) {
+    this.projectView = this.projects[index]
+    this.isModalVisible = true;
+  }
+
+  closeModal(ev) {
+    this.isModalVisible = ev.target;
   }
 
 }

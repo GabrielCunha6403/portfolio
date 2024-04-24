@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "title": "Project 1",
-      "topics": ["vue", "angular", "java"],
-      "urlImage": "../../../assets/imgs/whatsapp-icon.png",
+      "title": "Dazaria",
+      "topics": ["css", "html", "javascript"],
+      "urlImage": "../../../assets/imgs/dazaria-logo.png",
       "idProject": 2
     },
     {

@@ -29,6 +29,10 @@ export class CardComponent implements OnInit {
         return "fab fa-java color-orange";
       case "JAVASCRIPT":
         return "fab fa-js color-yellow";
+      case "HTML":
+        return "fab fa-html5 color-blue";
+      case "CSS":
+        return "fab fa-css3-alt color-orange";
     }
   }
 

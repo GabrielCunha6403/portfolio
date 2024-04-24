@@ -1,13 +1,13 @@
-<div class="background-modal">
+<div class="background-modal" [ngClass]="visible ? 'd-flex' : 'd-none'">
   <div class="modal-container">
-    <h2>Título</h2>
+    <h2>{{ project?.title }}</h2>
     <span class="line-divider"></span>
     <div class="modal-body-content">
-      <div class="modal-body-image" style="background-image: url(../../../assets/imgs/download-icon.png);"></div>
+      <div class="modal-body-image" style="background-image: url({{project?.urlImage}});"></div>
       <div class="modal-body-info">
         <section>
           <h4>Link</h4>
-          
+
         </section>
         <section>
           <h4>Description</h4>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="modal-sub">
-      <button>Fechar</button>
+      <button (click)="closeModal()">Fechar</button>
     </div>
   </div>
 </div>
