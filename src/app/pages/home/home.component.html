@@ -36,21 +36,12 @@
   </section>
   <section class="body-content">
     <div class="body-container">
-      <!-- <app-float-card [id]="'card3'">
-        <div class="perfil-image"></div>
-      </app-float-card> -->
-      <div class="info-section col-7">
-        <h2>Lorem ipsum</h2>
-        <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper suscipit volutpat. Sed porta elit at arcu ultricies, sit amet vulputate turpis vehicula. Integer dui sapien, lacinia ac porttitor vitae, pulvinar eget ante. Suspendisse ornare vulputate ligula, porttitor eleifend lorem consectetur vitae. In sapien lacus, ullamcorper eu mauris sit amet, porta maximus nunc. Nunc sit amet nisl dignissim, pulvinar ante non, pellentesque libero. Fusce quam metus, consequat et tellus eget, suscipit hendrerit tellus. Maecenas lorem enim, ullamcorper ut lacus in, vehicula elementum augue. Praesent accumsan massa velit, eget semper ligula tincidunt sit amet. Aenean eget eros et dolor vehicula tincidunt id ac nisi. </label>
-      </div>
-      <div class="info-section col-7">
-        <h2>Lorem ipsum</h2>
-        <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper suscipit volutpat. Sed porta elit at arcu ultricies, sit amet vulputate turpis vehicula. Integer dui sapien, lacinia ac porttitor vitae, pulvinar eget ante. Suspendisse ornare vulputate ligula, porttitor eleifend lorem consectetur vitae. In sapien lacus, ullamcorper eu mauris sit amet, porta maximus nunc. Nunc sit amet nisl dignissim, pulvinar ante non, pellentesque libero. Fusce quam metus, consequat et tellus eget, suscipit hendrerit tellus. Maecenas lorem enim, ullamcorper ut lacus in, vehicula elementum augue. Praesent accumsan massa velit, eget semper ligula tincidunt sit amet. Aenean eget eros et dolor vehicula tincidunt id ac nisi. </label>
-      </div>
-      <div class="info-section col-7">
-        <h2>Lorem ipsum</h2>
-        <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper suscipit volutpat. Sed porta elit at arcu ultricies, sit amet vulputate turpis vehicula. Integer dui sapien, lacinia ac porttitor vitae, pulvinar eget ante. Suspendisse ornare vulputate ligula, porttitor eleifend lorem consectetur vitae. In sapien lacus, ullamcorper eu mauris sit amet, porta maximus nunc. Nunc sit amet nisl dignissim, pulvinar ante non, pellentesque libero. Fusce quam metus, consequat et tellus eget, suscipit hendrerit tellus. Maecenas lorem enim, ullamcorper ut lacus in, vehicula elementum augue. Praesent accumsan massa velit, eget semper ligula tincidunt sit amet. Aenean eget eros et dolor vehicula tincidunt id ac nisi. </label>
+      <h2>Lorem</h2>
+      <span class="line-divider"></span>
+      <div class="row">
+        <app-card class="col-md-6" *ngFor="let project of projects" [project]="project"></app-card>
       </div>
     </div>
   </section>
 </div>
+<app-modal></app-modal>

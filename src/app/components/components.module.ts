@@ -1,16 +1,22 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import { FloatCardComponent } from './float-card/float-card.component';
+import { CardComponent } from './card/card.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   imports: [
     CommonModule,
   ],
   declarations: [
-    FloatCardComponent
+    FloatCardComponent,
+    CardComponent,
+    ModalComponent
   ],
   exports:[
-    FloatCardComponent
+    FloatCardComponent,
+    CardComponent,
+    ModalComponent
   ],
   providers: []
 })

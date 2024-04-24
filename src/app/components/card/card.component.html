@@ -1,0 +1,15 @@
+<div class="card-component">
+  <div class="card-image" style="background-image: url({{project.urlImage}});"></div>
+  <div class="card-body">
+    <h3>{{ project.title }}</h3>
+    <div class="card-topics">
+      <i *ngFor="let top of project.topics" class="topic-icon" [ngClass]="getIconClass(top)"></i>
+    </div>
+    <!-- <span *ngFor="let top of project.topics; let isFirst = first">
+      <ng-container *ngIf="!isFirst">
+        <label>, </label>
+      </ng-container>
+      {{ top }}
+    </span> -->
+  </div>
+</div>

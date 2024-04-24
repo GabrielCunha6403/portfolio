@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Project } from 'src/app/models/project';
+import * as data from '../../../assets/data/data.json';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  projects: Project[] = []
+
+  constructor() {
+    this.projects = data.projects as Project[];
+  }
 
   ngOnInit(): void {
   }
