@@ -15,17 +15,25 @@
   backdrop-filter: brightness(50%);
   background: rgba(0, 0, 0, 0.5);
   border-radius: 8px;
-  padding: 12px 16px;
+  /* padding: 12px 16px; */
   font-family: Consolas;
   animation: fadeInModal .5s;
+  overflow: hidden;
+  width: -webkit-fill-available;
 }
 .modal-container h2 {
   font-weight: bold;
   color: var(--colorPrimary);
 }
+.modal-header-container {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+}
 .modal-body-content {
   display: flex;
   flex-direction: row;
+  padding: 16px 16px;
 }
 .modal-body-image {
   height: 20rem;
@@ -43,21 +51,41 @@
   border-radius: 8px;
   transition: .2s;
   width: fit-content;
-  max-height: 360px;
+  max-height: 340px;
   overflow-y: scroll;
+}
+.modal-body-info section {
+  margin-bottom: 16px;
 }
 .modal-body-info:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-sub {
-  padding-top: 12px;
-  position: sticky;
+  display: flex;
+  padding: 16px;
+  position: absolute;
   bottom: 0;
+  align-items: center;
+  justify-content: flex-end;
+  width: -webkit-fill-available;
+  transition: .2s;
+}
+.modal-sub:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .modal-sub button {
   background: none;
   border: none;
   color: var(--colorPrimary);
+  transition: .2s;
+  padding: 8px;
+  border-radius: 8px;
+}
+.modal-sub button:hover {
+  color: var(--colorSecondary);
+  text-shadow: 0 0 4px var(--colorSecondary);
+  background-color: var(--colorPrimary);
+  box-shadow: 0 0 6px 2px var(--colorPrimary), 0 0 10px 3px var(--colorPrimary);
 }
 .line-divider {
   display: flex;

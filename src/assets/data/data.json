@@ -3,6 +3,12 @@
     {
       "title": "Dazaria",
       "topics": ["css", "html", "javascript"],
+      "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap"],
+      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "urls": [
+        {"name": "Site", "url": "https://gabrielcunha6403.github.io/Dazaria/"},
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Dazaria"}
+      ],
       "urlImage": "../../../assets/imgs/dazaria-logo.png",
       "idProject": 2
     },

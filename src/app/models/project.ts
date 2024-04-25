@@ -12,5 +12,10 @@ export class ProjectDetail {
   urlImage: string;
   idProject: number;
   description: string;
+  urls: Link[];
+}
+
+export class Link {
+  name: string;
   url: string;
 }

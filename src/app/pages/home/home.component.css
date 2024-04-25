@@ -1,5 +1,5 @@
 .perfil-image {
-  background-image: url(../../../assets/imgs/perfil.jpg);
+  /* background-image: url(../../../assets/imgs/perfil.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@
   perspective: 1000px;
 }
 .flip-card-inner::after {
-  content: ' ';
+  content: '';
   top: 380px;
   left: -10px;
   width: 100%;
@@ -26,6 +26,7 @@
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  animation: flipCard 2s cubic-bezier(0.3, 0, 0, 1);
 }
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
@@ -154,10 +155,15 @@
   font-size: 36px;
   color: var(--colorSecondary);
 }
-.cards-container {
-
-}
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+@keyframes flipCard {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }

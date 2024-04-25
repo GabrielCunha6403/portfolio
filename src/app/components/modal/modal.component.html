@@ -1,22 +1,30 @@
 <div class="background-modal" [ngClass]="visible ? 'd-flex' : 'd-none'">
   <div class="modal-container">
-    <h2>{{ project?.title }}</h2>
-    <span class="line-divider"></span>
+    <div class="modal-header-container">
+      <h2>{{ project?.title }}</h2>
+      <span class="line-divider"></span>
+    </div>
     <div class="modal-body-content">
       <div class="modal-body-image" style="background-image: url({{project?.urlImage}});"></div>
       <div class="modal-body-info">
         <section>
-          <h4>Link</h4>
-
+          <h4>Links</h4>
+          <div *ngFor="let link of project?.urls" class="link-row">
+            <span>{{ link.name }}: </span>
+            <a href="{{link.url}}" target="_blank">{{link.url}}</a>
+          </div>
         </section>
         <section>
           <h4>Description</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna augue, vel tempus neque mollis consequat. Cras sed dapibus neque. Proin cursus at tortor at pretium. Morbi efficitur sit amet nulla vitae rhoncus. Vestibulum eget dui mi. Fusce euismod sollicitudin tortor, nec dignissim mauris sagittis ac</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna augue, vel tempus neque mollis consequat. Cras sed dapibus neque. Proin cursus at tortor at pretium. Morbi efficitur sit amet nulla vitae rhoncus. Vestibulum eget dui mi. Fusce euismod sollicitudin tortor, nec dignissim mauris sagittis ac</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis urna augue, vel tempus neque mollis consequat. Cras sed dapibus neque. Proin cursus at tortor at pretium. Morbi efficitur sit amet nulla vitae rhoncus. Vestibulum eget dui mi. Fusce euismod sollicitudin tortor, nec dignissim mauris sagittis ac</p>
+          <p>{{ project?.description }}</p>
         </section>
         <section>
           <h4>Topics</h4>
+          <div class="topics-content">
+            <span *ngFor="let top of project?.dsTopics; let isFirst = first">
+              {{ (!isFirst ? ' • ' : '') + top }}
+            </span>
+          </div>
         </section>
       </div>
     </div>

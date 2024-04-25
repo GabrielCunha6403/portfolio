@@ -58,3 +58,18 @@ button:focus {
   transition: .5s;
   left: 100%;
 }
+* ::-webkit-scrollbar {
+  width: 5px;
+}
+* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+* ::-webkit-scrollbar-thumb {
+  background: var(--colorSecondary);
+  backdrop-filter: brightness(50%);
+  width: 2px;
+  border-radius: 10px;
+  transition: 200ms;
+  height: 2px;
+}
+
