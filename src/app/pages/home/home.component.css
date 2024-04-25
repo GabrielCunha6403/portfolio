@@ -1,5 +1,5 @@
 .perfil-image {
-  /* background-image: url(../../../assets/imgs/perfil.jpg); */
+  background-image: url(../../../assets/imgs/perfil.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +20,8 @@
   position: absolute;
 }
 .flip-card-inner {
+  display: flex;
+  justify-content: center;
   position: relative;
   width: 100%;
   height: 100%;
@@ -44,6 +46,8 @@
   transition: .3s;
 }
 .flip-card-front {
+  display: flex;
+  justify-content: center;
   background-color: #bbb;
   color: black;
 }
@@ -112,14 +116,19 @@
 .btn-download:hover::before {
   background-image: url(../../../assets/imgs/download-icon.png);
 }
+.body-column {
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  margin: 0 12%;
+  padding: 16px 24px;
+}
 .body-content {
+  /* padding: 0 12%; */
   width: 100%;
-  padding: 0 12%;
+  margin-bottom: 12px;
 }
 .body-container {
-  padding: 16px 24px;
-  border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.5);
   font-family: Consolas;
 }
 .body-container h2 {
@@ -144,7 +153,7 @@
   font-family: Consolas;
 }
 .info-section {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) brightness(50%);
   width: max-content;
   padding-left: 36px;
   border-left: 6px solid var(--colorSecondary);
@@ -154,6 +163,19 @@
   font-weight: bold;
   font-size: 36px;
   color: var(--colorSecondary);
+}
+.info-section label {
+  color: var(--colorPrimary);
+  font-weight: 500;
+}
+.mouse-message {
+  color: var(--colorPrimary);
+  text-align: center;
+  width: 100%;
+  margin: 12px 0;
+}
+.mouse-message i {
+  animation: hovering 2s ease-in-out infinite;
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -165,5 +187,22 @@
   }
   to {
     transform: rotateY(360deg);
+  }
+}
+@keyframes hovering {
+  0% {
+    transform:
+    translateX(0)
+    translatey(0);
+  }
+  50% {
+    transform:
+    translateX(4px)
+    translatey(2px);
+  }
+  100% {
+    transform:
+    translateX(0)
+    translatey(0);
   }
 }

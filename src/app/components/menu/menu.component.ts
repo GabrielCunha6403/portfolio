@@ -28,8 +28,6 @@ export class MenuComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onWindowScroll(e) {
     const windowScroll = window.scrollY;
-    console.log(windowScroll);
-
     if (windowScroll == 0) {
       document.querySelector('.menu').classList.add('fixed-top');
     } else {

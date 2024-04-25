@@ -10,18 +10,28 @@
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/Dazaria"}
       ],
       "urlImage": "../../../assets/imgs/dazaria-logo.png",
+      "idProject": 1
+    },
+    {
+      "title": "O Povo CBN",
+      "topics": ["css", "html", "javascript"],
+      "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap", "PHP"],
+      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "urls": [
+        {"name": "Site", "url": "https://cbn.opovo.com.br/"}
+      ],
+      "urlImage": "../../../assets/imgs/opovo-cbn-logo.png",
       "idProject": 2
     },
     {
-      "title": "Project 1",
-      "topics": ["vue", "angular", "javascript"],
-      "urlImage": "../../../assets/imgs/whatsapp-icon.png",
-      "idProject": 2
-    },
-    {
-      "title": "Project 1",
-      "topics": ["vue", "angular", "docker"],
-      "urlImage": "../../../assets/imgs/whatsapp-icon.png",
+      "title": "Portfolio",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript", "Bootstrap", "Fontawesome"],
+      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/portfolio"}
+      ],
+      "urlImage": "../../../assets/imgs/perfil.jpg",
       "idProject": 2
     }
   ]
