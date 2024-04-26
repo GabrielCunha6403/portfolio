@@ -1,5 +1,5 @@
 .perfil-image {
-  background-image: url(../../../assets/imgs/perfil.jpg);
+  /* background-image: url(../../../assets/imgs/perfil.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +126,7 @@
 .body-content {
   /* padding: 0 12%; */
   width: 100%;
-  margin-bottom: 12px;
+  margin-bottom: 3rem;
 }
 .body-container {
   font-family: Consolas;
@@ -176,6 +176,12 @@
 }
 .mouse-message i {
   animation: hovering 2s ease-in-out infinite;
+}
+.skill-column h3 {
+  text-align: center;
+  color: var(--colorPrimary);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--colorSecondary);
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
