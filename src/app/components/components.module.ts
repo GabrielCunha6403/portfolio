@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import { FloatCardComponent } from './float-card/float-card.component';
 import { CardComponent } from './card/card.component';
 import { ModalComponent } from './modal/modal.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   imports: [
@@ -11,12 +12,14 @@ import { ModalComponent } from './modal/modal.component';
   declarations: [
     FloatCardComponent,
     CardComponent,
-    ModalComponent
+    ModalComponent,
+    TimelineComponent
   ],
   exports:[
     FloatCardComponent,
     CardComponent,
-    ModalComponent
+    ModalComponent,
+    TimelineComponent
   ],
   providers: []
 })

@@ -34,5 +34,39 @@
       "urlImage": "../../../assets/imgs/perfil.jpg",
       "idProject": 2
     }
+  ],
+  "skills": {
+    "programming": [
+      {"name":"JavaScript", "urlImage": ""},
+      {"name":"TypeScript", "urlImage": ""},
+      {"name":"Java", "urlImage": ""},
+      {"name":"SQL", "urlImage": ""},
+      {"name":"Python", "urlImage": ""}
+    ],
+    "development": [
+      {"name": "Angular", "urlImage": ""},
+      {"name": "Vue", "urlImage": ""},
+      {"name": "React", "urlImage": ""},
+      {"name": "Spring Boot", "urlImage": ""},
+      {"name": "Quarkus", "urlImage": ""},
+      {"name": "JQuery", "urlImage": ""},
+      {"name": "NodeJS", "urlImage": ""},
+      {"name": "Bootstrap", "urlImage": ""},
+      {"name": "Docker", "urlImage": ""}
+    ],
+    "others": [
+      {"name": "SCRUM", "urlImage": ""},
+      {"name": "Kanban", "urlImage": ""},
+      {"name": "Inglês avançado", "urlImage": ""},
+      {"name": "Lógica de programação", "urlImage": ""}
+    ]
+  },
+  "timeline": [
+    {
+      "date": "Jun/2020",
+      "title": "Lorem",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.",
+      "topics": ["Angular", "Springboot"]
+    }
   ]
 }

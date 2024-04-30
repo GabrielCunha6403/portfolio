@@ -1,0 +1,57 @@
+.tl-point span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  background-color: var(--colorSecondary);
+  z-index: 1;
+  transition: .2s;
+}
+.tl-point {
+  color: var(--colorPrimary);
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: var(--colorPrimary);
+  top: 4rem;
+}
+.tl-row {
+  display: flex;
+  padding: 16px 26px;
+  border-radius: 8px;
+  transition: .2s;
+}
+.tl-row:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.tl-row:hover .tl-point span {
+  background-color: var(--colorPrimary);
+}
+.tl-row:hover .tl-point span {
+  color: var(--colorSecondary);
+}
+.tl-row:hover .tl-body span,
+.tl-row:hover .tl-body p {
+  color: var(--colorPrimary);
+}
+.tl-body {
+  margin-left: 34px;
+}
+.tl-body h4 {
+  color: var(--colorPrimary);
+  font-weight: bold;
+}
+.tl-body span,
+.tl-body p {
+  color: var(--colorSecondary);
+  transition: .2s;
+}

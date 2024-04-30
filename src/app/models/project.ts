@@ -19,3 +19,21 @@ export class Link {
   name: string;
   url: string;
 }
+
+export class Skill {
+  name: string;
+  urlImage: string;
+}
+
+export class SkillTools {
+  programming: Skill[];
+  development: Skill[];
+  others: Skill[];
+}
+
+export class TimeLineRow {
+  date: string;
+  title: string;
+  description: string;
+  topics: string[];
+}

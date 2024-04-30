@@ -1,5 +1,5 @@
 .perfil-image {
-  /* background-image: url(../../../assets/imgs/perfil.jpg); */
+  background-image: url(../../../assets/imgs/perfil.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,7 +118,7 @@
 }
 .body-column {
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   margin: 0 12%;
   padding: 16px 24px;
@@ -155,13 +155,14 @@
 .info-section {
   backdrop-filter: blur(10px) brightness(50%);
   width: max-content;
-  padding-left: 36px;
+  padding: 12px 36px;
   border-left: 6px solid var(--colorSecondary);
   border-radius: 8px;
 }
 .info-section h2 {
   font-weight: bold;
   font-size: 36px;
+  padding-bottom: 24px;
   color: var(--colorSecondary);
 }
 .info-section label {
@@ -175,13 +176,22 @@
   margin: 12px 0;
 }
 .mouse-message i {
-  animation: hovering 2s ease-in-out infinite;
+  animation: hovering .5s ease-in-out infinite;
 }
 .skill-column h3 {
   text-align: center;
   color: var(--colorPrimary);
   padding: 12px 0;
   border-bottom: 1px solid var(--colorSecondary);
+}
+.skill-column ul {
+  padding-left: 24px;
+}
+.skill-column li {
+  color: var(--colorPrimary);
+}
+.skill-column li::marker {
+  color: var(--colorSecondary);
 }
 @keyframes fadeIn {
   0% { opacity: 0; }

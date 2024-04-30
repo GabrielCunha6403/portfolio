@@ -1,0 +1,15 @@
+<div class="timeline">
+  <div class="tl-row" *ngFor="let line of data">
+    <div class="tl-point">
+      <div class="line"></div>
+      <span>{{ line.date }}</span>
+    </div>
+    <div class="tl-body">
+      <h4>{{ line.title }}</h4>
+      <p>{{ line.description }}</p>
+      <div class="tl-topics">
+        <span *ngFor="let top of line.topics; let isFirst = first">{{ (!isFirst ? ' • ' : '') + top }}</span>
+      </div>
+    </div>
+  </div>
+</div>
