@@ -1,8 +1,10 @@
 <div class="timeline">
-  <div class="tl-row" *ngFor="let line of data">
+  <div class="tl-row" *ngFor="let line of data; let i = index">
     <div class="tl-point">
-      <div class="line"></div>
+      <div class="line" *ngIf="i < (data.length - 1)"></div>
+      <!-- <div class="line-mobile"></div> -->
       <span>{{ line.date }}</span>
+      <div class="line-mobile"></div>
     </div>
     <div class="tl-body">
       <h4>{{ line.title }}</h4>

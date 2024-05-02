@@ -61,6 +61,9 @@
   overflow: hidden;
   transform: rotateY(180deg);
 }
+.flip-card-area {
+  height: 28rem;
+}
 .card-back-info {
   height: 100%;
   width: 100%;

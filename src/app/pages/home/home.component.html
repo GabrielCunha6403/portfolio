@@ -1,37 +1,39 @@
 <div class="home">
-  <section class="section-row">
-    <div class="col-6">
-      <div class="mouse-message">
-        <span><i class="fas fa-mouse-pointer"></i> Passe o mouse!</span>
-      </div>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <div class="perfil-background">
-              <div #perfilImage class="perfil-image">
+  <section class="section-row row m-0">
+    <div class="col-xl-6">
+      <div class="flip-card-area">
+        <div class="mouse-message">
+          <span><i class="fas fa-mouse-pointer"></i> Passe o mouse!</span>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="perfil-background">
+                <div #perfilImage class="perfil-image">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flip-card-back">
-            <div class="card-back-info">
-              <a class="btn-github" href="http://github.com/GabrielCunha6403" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-              <a class="btn-linkedin" href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-cunha-jata%C3%AD-582791189/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a class="btn-whatsapp" href="https://wa.link/90k0vk" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-              </a>
-              <a class="btn-download" href="../../../assets/docs/currículo.pdf" target="_blank">
-                <i class="fas fa-download"></i>
-              </a>
+            <div class="flip-card-back">
+              <div class="card-back-info">
+                <a class="btn-github" href="http://github.com/GabrielCunha6403" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a class="btn-linkedin" href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-cunha-jata%C3%AD-582791189/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="btn-whatsapp" href="https://wa.link/90k0vk" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="btn-download" href="../../../assets/docs/currículo.pdf" target="_blank">
+                  <i class="fas fa-download"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-6 d-flex px-0">
+    <div class="col-xl-6 d-flex px-0">
       <div class="info-section">
         <h2>Bem-vindo(a) ao meu portfólio</h2>
         <label>
@@ -48,7 +50,7 @@
         <h2>Projetos</h2>
         <span class="line-divider"></span>
         <div class="row">
-          <app-card class="col-md-6" *ngFor="let project of projects; let i = index" [project]="project" (click)="openModal(i)"></app-card>
+          <app-card class="col-lg-6" *ngFor="let project of projects; let i = index" [project]="project" (click)="openModal(i)"></app-card>
         </div>
       </div>
     </section>
@@ -67,7 +69,7 @@
         <h2>Competências</h2>
         <span class="line-divider"></span>
         <div class="row">
-          <div class="col-4 skill-column">
+          <div class="col-lg-4 skill-column">
             <h3>Programação</h3>
             <div class="skills-content">
               <ul>
@@ -75,13 +77,13 @@
               </ul>
             </div>
           </div>
-          <div class="col-4 skill-column">
+          <div class="col-lg-4 skill-column">
             <h3>Desenvolvimento</h3>
             <ul>
               <li *ngFor="let sk of skills.development">{{ sk.name }}</li>
             </ul>
           </div>
-          <div class="col-4 skill-column">
+          <div class="col-lg-4 skill-column">
             <h3>Outros</h3>
             <ul>
               <li *ngFor="let sk of skills.others">{{ sk.name }}</li>

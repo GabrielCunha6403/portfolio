@@ -26,6 +26,7 @@
 }
 .tl-row {
   display: flex;
+  flex-direction: row;
   padding: 16px 26px;
   border-radius: 8px;
   transition: .2s;
@@ -54,4 +55,38 @@
 .tl-body p {
   color: var(--colorSecondary);
   transition: .2s;
+}
+
+@media (max-width: 728px) {
+  .tl-row {
+    flex-direction: column;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .tl-body {
+    margin: 0;
+  }
+  .tl-point {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tl-point span {
+    background: none;
+    height: 6rem;
+    width: auto;
+    font-size: 16px;
+  }
+  .line {
+    display: none;
+  }
+  .line-mobile {
+    background: var(--colorSecondary);
+    height: 2px;
+    width: -webkit-fill-available;
+    margin: 0 16px;
+  }
+  .tl-row:hover .tl-point span {
+    background: none;
+    color: var(--colorPrimary);
+  }
 }
