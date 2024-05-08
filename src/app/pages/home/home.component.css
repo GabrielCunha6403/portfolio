@@ -225,3 +225,12 @@
     translatey(0);
   }
 }
+
+@media (max-width: 728px) {
+  .body-column {
+    margin: 8px;
+  }
+  .section-row {
+    padding: 36px 8px;
+  }
+}

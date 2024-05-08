@@ -102,3 +102,19 @@
   0% { backdrop-filter: none }
   100% { backdrop-filter: blur(22px) brightness(50%) }
 }
+@media (max-width: 728px) {
+  .background-modal {
+    padding: 16px 8px;
+  }
+  .modal-body-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .modal-body-image {
+    height: 12rem;
+  }
+  .modal-body-info {
+    margin: 8px 0;
+    max-height: 212px;
+  }
+}
