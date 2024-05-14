@@ -4,7 +4,7 @@
       "title": "Dazaria",
       "topics": ["css", "html", "javascript"],
       "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap"],
-      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout. Iniciativa de gerar uma renda extra a partir de uma marca de roupa onde eu realizaria vendas online (sem sistema de compra, somente redirecionamento para o Whatsapp).",
       "urls": [
         {"name": "Site", "url": "https://gabrielcunha6403.github.io/Dazaria/"},
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/Dazaria"}
@@ -16,7 +16,7 @@
       "title": "O Povo CBN",
       "topics": ["css", "html", "javascript"],
       "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap", "PHP"],
-      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "description": "Landing Page do O Povo CBN onde fui aprendiz. Esta tela foi implementada inicialmente com vários protótipos de componentes utilizando somente HTML, CSS, Bootstrap e JQuery.",
       "urls": [
         {"name": "Site", "url": "https://cbn.opovo.com.br/"}
       ],
@@ -27,11 +27,77 @@
       "title": "Portfolio",
       "topics": ["angular", "css", "html", "javascript"],
       "dsTopics": ["Angular 10", "Typescript", "Bootstrap", "Fontawesome"],
-      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout.",
+      "description": "Projeto onde tento exibir todo meu aprendizado e competências como Front-end (até 2023) utilizando Angular 10 e alguns serviços web. No momento, sem Back-end.",
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/portfolio"}
       ],
       "urlImage": "../../../assets/imgs/perfil.jpg",
+      "idProject": 2
+    },
+    {
+      "title": "Angular Safe Login",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript"],
+      "description": "Serviço de autenticação no Angular utilizando conceitos de Interceptor e Guard. Infelizmente, não foi concluído pois a tecnologia usada foi o Spring 3 que havia sido atualizado recentemente e não consegui encontrar fontes de pesquisas esclarecedoras para o Spring Security 3.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Angular_SafeLogin"}
+      ],
+      "urlImage": "../../../assets/imgs/safe-login-logo.png",
+      "idProject": 2
+    },
+    {
+      "title": "Memoteca Angular",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript"],
+      "description": "Treinamento de Angular 10 para aperfeiçoar minha competência nesta tecnologia, visto que utilizaria em um projeto que fui intimado a participar na época.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Memoteca_Angular"}
+      ],
+      "urlImage": "../../../assets/imgs/memoteca.png",
+      "idProject": 2
+    },
+    {
+      "title": "Coffee Control Quarkus",
+      "topics": ["java", "docker"],
+      "dsTopics": ["Quarkus", "Docker", "MyBatis"],
+      "description": "CRUD de um sistema de controle de café, mais um projeto de treinamento utilizando tecnologias de Back-end.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_Quarkus"}
+      ],
+      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "idProject": 2
+    },
+    {
+      "title": "Coffee Control Spring-Boot",
+      "topics": ["java", "docker", "Springboot"],
+      "dsTopics": ["Spring-Boot", "Docker", "MyBatis"],
+      "description": "CRUD de um sistema de controle de café, mais um projeto de treinamento utilizando tecnologias de Back-end.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_SpringBoot"}
+      ],
+      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "idProject": 2
+    },
+    {
+      "title": "JPA Hibernate",
+      "topics": ["java", "Springboot", "docker"],
+      "dsTopics": ["Spring-Boot", "Docker", "JPA", "PostgreSQL", "Hibernate"],
+      "description": "CRUD de produtos de uma loja afim de aperfeiçoar técnicas de persistências de dados utilizando as determinadas tecnologias.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/JPA_Hibernate_treinamento"}
+      ],
+      "urlImage": "../../../assets/imgs/programming.jpg",
+      "idProject": 2
+    },
+    {
+      "title": "Árvore de Huffman",
+      "topics": ["java"],
+      "dsTopics": ["Java"],
+      "description": "Trabalho da faculdade da disciplina de Estrutura de Dados. O trabalho consiste em criptografar e decriptografar arquivos .txt utilizando a metodologia da árvore de Huffman, onde as informações do .txt serão transformadas em uma sequência binária baseada em uma árvore previamente gerada a partir do conteúdo. O sistema também faz o procedimento contrário (decriptografar).",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/ArvoreDeHuffman"}
+      ],
+      "urlImage": "../../../assets/imgs/huffman.png",
       "idProject": 2
     }
   ],
