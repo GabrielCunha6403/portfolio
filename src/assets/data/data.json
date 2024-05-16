@@ -69,7 +69,7 @@
     },
     {
       "title": "Coffee Control Spring-Boot",
-      "topics": ["java", "docker", "Springboot"],
+      "topics": ["java", "docker", "spring"],
       "dsTopics": ["Spring-Boot", "Docker", "MyBatis"],
       "description": "CRUD de um sistema de controle de café, mais um projeto de treinamento utilizando tecnologias de Back-end.",
       "urls": [
@@ -80,7 +80,7 @@
     },
     {
       "title": "JPA Hibernate",
-      "topics": ["java", "Springboot", "docker"],
+      "topics": ["java", "spring", "docker"],
       "dsTopics": ["Spring-Boot", "Docker", "JPA", "PostgreSQL", "Hibernate"],
       "description": "CRUD de produtos de uma loja afim de aperfeiçoar técnicas de persistências de dados utilizando as determinadas tecnologias.",
       "urls": [

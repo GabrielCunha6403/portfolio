@@ -24,7 +24,7 @@ export class CardComponent implements OnInit {
       case "VUE":
         return "fab fa-vuejs color-green";
       case "SPRING":
-        return "fa-solid fa-seedling color-lime";
+        return "fas fa-leaf color-green";
       case "JAVA":
         return "fab fa-java color-orange";
       case "JAVASCRIPT":
