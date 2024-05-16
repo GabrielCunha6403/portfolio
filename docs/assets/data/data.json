@@ -1,0 +1,168 @@
+{
+  "projects": [
+    {
+      "title": "Dazaria",
+      "topics": ["css", "html", "javascript"],
+      "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap"],
+      "description": "Site de uma loja de roupas utilizando JQuery e Bootstrap para o layout. Iniciativa de gerar uma renda extra a partir de uma marca de roupa onde eu realizaria vendas online (sem sistema de compra, somente redirecionamento para o Whatsapp).",
+      "urls": [
+        {"name": "Site", "url": "https://gabrielcunha6403.github.io/Dazaria/"},
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Dazaria"}
+      ],
+      "urlImage": "../../../assets/imgs/dazaria-logo.png",
+      "idProject": 1
+    },
+    {
+      "title": "O Povo CBN",
+      "topics": ["css", "html", "javascript"],
+      "dsTopics": ["CSS", "HTML", "Javascript", "JQuery", "Bootstrap", "PHP"],
+      "description": "Landing Page do O Povo CBN onde fui aprendiz. Esta tela foi implementada inicialmente com vários protótipos de componentes utilizando somente HTML, CSS, Bootstrap e JQuery.",
+      "urls": [
+        {"name": "Site", "url": "https://cbn.opovo.com.br/"}
+      ],
+      "urlImage": "../../../assets/imgs/opovo-cbn-logo.png",
+      "idProject": 2
+    },
+    {
+      "title": "Portfolio",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript", "Bootstrap", "Fontawesome"],
+      "description": "Projeto onde tento exibir todo meu aprendizado e competências como Front-end (até 2023) utilizando Angular 10 e alguns serviços web. No momento, sem Back-end.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/portfolio"}
+      ],
+      "urlImage": "../../../assets/imgs/perfil.jpg",
+      "idProject": 2
+    },
+    {
+      "title": "Angular Safe Login",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript"],
+      "description": "Serviço de autenticação no Angular utilizando conceitos de Interceptor e Guard. Infelizmente, não foi concluído pois a tecnologia usada foi o Spring 3 que havia sido atualizado recentemente e não consegui encontrar fontes de pesquisas esclarecedoras para o Spring Security 3.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Angular_SafeLogin"}
+      ],
+      "urlImage": "../../../assets/imgs/safe-login-logo.png",
+      "idProject": 2
+    },
+    {
+      "title": "Memoteca Angular",
+      "topics": ["angular", "css", "html", "javascript"],
+      "dsTopics": ["Angular 10", "Typescript"],
+      "description": "Treinamento de Angular 10 para aperfeiçoar minha competência nesta tecnologia, visto que utilizaria em um projeto que fui intimado a participar na época.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/Memoteca_Angular"}
+      ],
+      "urlImage": "../../../assets/imgs/memoteca.png",
+      "idProject": 2
+    },
+    {
+      "title": "Coffee Control Quarkus",
+      "topics": ["java", "docker"],
+      "dsTopics": ["Quarkus", "Docker", "MyBatis"],
+      "description": "CRUD de um sistema de controle de café, mais um projeto de treinamento utilizando tecnologias de Back-end.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_Quarkus"}
+      ],
+      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "idProject": 2
+    },
+    {
+      "title": "Coffee Control Spring-Boot",
+      "topics": ["java", "docker", "spring"],
+      "dsTopics": ["Spring-Boot", "Docker", "MyBatis"],
+      "description": "CRUD de um sistema de controle de café, mais um projeto de treinamento utilizando tecnologias de Back-end.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_SpringBoot"}
+      ],
+      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "idProject": 2
+    },
+    {
+      "title": "JPA Hibernate",
+      "topics": ["java", "spring", "docker"],
+      "dsTopics": ["Spring-Boot", "Docker", "JPA", "PostgreSQL", "Hibernate"],
+      "description": "CRUD de produtos de uma loja afim de aperfeiçoar técnicas de persistências de dados utilizando as determinadas tecnologias.",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/JPA_Hibernate_treinamento"}
+      ],
+      "urlImage": "../../../assets/imgs/programming.jpg",
+      "idProject": 2
+    },
+    {
+      "title": "Árvore de Huffman",
+      "topics": ["java"],
+      "dsTopics": ["Java"],
+      "description": "Trabalho da faculdade da disciplina de Estrutura de Dados. O trabalho consiste em criptografar e decriptografar arquivos .txt utilizando a metodologia da árvore de Huffman, onde as informações do .txt serão transformadas em uma sequência binária baseada em uma árvore previamente gerada a partir do conteúdo. O sistema também faz o procedimento contrário (decriptografar).",
+      "urls": [
+        {"name": "Github", "url": "https://github.com/GabrielCunha6403/ArvoreDeHuffman"}
+      ],
+      "urlImage": "../../../assets/imgs/huffman.png",
+      "idProject": 2
+    }
+  ],
+  "skills": {
+    "programming": [
+      {"name":"JavaScript", "urlImage": ""},
+      {"name":"TypeScript", "urlImage": ""},
+      {"name":"Java", "urlImage": ""},
+      {"name":"SQL", "urlImage": ""},
+      {"name":"Python", "urlImage": ""}
+    ],
+    "development": [
+      {"name": "Angular", "urlImage": ""},
+      {"name": "Vue", "urlImage": ""},
+      {"name": "React", "urlImage": ""},
+      {"name": "Spring Boot", "urlImage": ""},
+      {"name": "Quarkus", "urlImage": ""},
+      {"name": "JQuery", "urlImage": ""},
+      {"name": "NodeJS", "urlImage": ""},
+      {"name": "Bootstrap", "urlImage": ""},
+      {"name": "Docker", "urlImage": ""}
+    ],
+    "others": [
+      {"name": "SCRUM", "urlImage": ""},
+      {"name": "Kanban", "urlImage": ""},
+      {"name": "Inglês avançado", "urlImage": ""},
+      {"name": "Lógica de programação", "urlImage": ""}
+    ]
+  },
+  "timeline": [
+    {
+      "date": "Jun/2020",
+      "title": "Bolsa FEQ UX/UI",
+      "description": "Recebi uma bolsa da Fundação Edson Queiroz após um teste aplicado pelo meu professor da disciplina de IHC (Interação Humano-Computador) onde tive meu primeiro contato com a metodologia ágil SCRUM. Durante o processo participei de reuniões diárias, realizava o preenchimento de atas onde elencava os tópicos importantes da reunião e em alguns momentos utilizei a ferramenta Figma para a prototipação do sistema requerido pelo cliente. No final do tempo de contrato da bolsa, tive meu primeiro contato com o Angular, porém, não me restou tempo para usá-lo no projeto.",
+      "topics": ["SCRUM", "Angular", "Figma"]
+    },
+    {
+      "date": "Fev/2021",
+      "title": "Instrutor de informática",
+      "description": "Estágio em uma escola técnica (Sigma Home School) onde atuei como intrutor de informática realizando o preenchimento de planilhas, manutenção de computadores (hardware e software) e dando o suporte para alunos da escola (auxílio no plataforma e apresentações online da apostila)",
+      "topics": ["Manutenção de computadores"]
+    },
+    {
+      "date": "Jun/2021",
+      "title": "Aprendiz de Front-end",
+      "description": "Programa de Jovem Aprendiz voltado para desenvolvimento na parte de Front-end onde desenvolvi minha forte competência com HTML, CSS, Bootstrap e um pouco de JQuery. Neste período de pandemia, trabalhei remotamente no desenvolvimento de telas e componentes prototipados e responsivos.",
+      "topics": ["HTML", "CSS", "Bootstrap", "JQuery", "Front-end"]
+    },
+    {
+      "date": "Out/2022",
+      "title": "Estagiário Full-Stack",
+      "description": "Início da minha carreira na UNIFOR (Universidade de Fortaleza) onde minha curva de aprendizado se desenvolveu bastante. No período de aprendizado, obtive treinamento nas tecnologias: Angular, Spring-boot, Quarkus, MyBatis, Panache, JPA, Hibernate e Docker. Com essas tecnologias, eu apliquei em alguns projetos afim de solidificar o aprendizado e ingressar em um projeto da casa. O projeto em que ingressei utiliza Angular 10 e Spring-boot e é utilizado o SCRUM.",
+      "topics": ["Angular", "Springboot", "Quarkus", "MyBatis", "Docker", "Panache", "JPA", "Hibernate"]
+    },
+    {
+      "date": "Mar/2023",
+      "title": "Trainee Full-Stack",
+      "description": "Após 5 meses de estagiário, fui promovido para Trainee. Assim que fui admitido, ingressei num segundo projeto utilizando Vue e Spring-boot. Em determinado tempo do projeto, surgiu-se a necessidade de criar outra versão do mesmo utilizando Quarkus, o que foi bastante desafiador pois nessa fase do projeto a demanda do cliente estava bem criteriosa e não podia haver erros. Durante esse período, solidifiquei meu conhecimento nessas tecnologias e me tornei um profissional mais capacitado recebendo demandas importantes, determinando prazos com mais precisão e orquestrando minhas atividades com mais responsabilidade.",
+      "topics": ["Angular", "Springboot", "Quarkus", "MyBatis", "Docker", "Hibernate"]
+    },
+    {
+      "date": "Jan/2024",
+      "title": "Desenvolvedor Júnior",
+      "description": "No meu atual cargo, sou Desenvolvedor Júnior onde já possuo maior domínio das minhas skills. Sigo ainda no meu primeiro projeto, porém, com atividades de maiores prioridades e complexidades. A tecnologia do projeto não mudou até então, porém, vem sendo notório que há sempre o que aprender dentro de uma mesma tecnologia, o que torna os desafios do projeto imprevisíveis mas interessantes. Todavia, tenho confiança de que tal requisito será cumprido pelo fato de prezarmos muito pela qualidade pois neste projeto utilizamos boas práticas em seu desenvolvimento.",
+      "topics": ["Angular", "Springboot", "MyBatis", "Boas práticas"]
+    }
+  ]
+}
