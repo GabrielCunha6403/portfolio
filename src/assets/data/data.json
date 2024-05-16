@@ -130,21 +130,39 @@
   "timeline": [
     {
       "date": "Jun/2020",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.",
-      "topics": ["Angular", "Springboot"]
+      "title": "Bolsa FEQ UX/UI",
+      "description": "Recebi uma bolsa da Fundação Edson Queiroz após um teste aplicado pelo meu professor da disciplina de IHC (Interação Humano-Computador) onde tive meu primeiro contato com a metodologia ágil SCRUM. Durante o processo participei de reuniões diárias, realizava o preenchimento de atas onde elencava os tópicos importantes da reunião e em alguns momentos utilizei a ferramenta Figma para a prototipação do sistema requerido pelo cliente. No final do tempo de contrato da bolsa, tive meu primeiro contato com o Angular, porém, não me restou tempo para usá-lo no projeto.",
+      "topics": ["SCRUM", "Angular", "Figma"]
     },
     {
-      "date": "Jun/2020",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.",
-      "topics": ["Angular", "Springboot"]
+      "date": "Fev/2021",
+      "title": "Instrutor de informática",
+      "description": "Estágio em uma escola técnica (Sigma Home School) onde atuei como intrutor de informática realizando o preenchimento de planilhas, manutenção de computadores (hardware e software) e dando o suporte para alunos da escola (auxílio no plataforma e apresentações online da apostila)",
+      "topics": ["Manutenção de computadores"]
     },
     {
-      "date": "Jun/2020",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at sollicitudin nulla.",
-      "topics": ["Angular", "Springboot"]
+      "date": "Jun/2021",
+      "title": "Aprendiz de Front-end",
+      "description": "Programa de Jovem Aprendiz voltado para desenvolvimento na parte de Front-end onde desenvolvi minha forte competência com HTML, CSS, Bootstrap e um pouco de JQuery. Neste período de pandemia, trabalhei remotamente no desenvolvimento de telas e componentes prototipados e responsivos.",
+      "topics": ["HTML", "CSS", "Bootstrap", "JQuery", "Front-end"]
+    },
+    {
+      "date": "Out/2022",
+      "title": "Estagiário Full-Stack",
+      "description": "Início da minha carreira na UNIFOR (Universidade de Fortaleza) onde minha curva de aprendizado se desenvolveu bastante. No período de aprendizado, obtive treinamento nas tecnologias: Angular, Spring-boot, Quarkus, MyBatis, Panache, JPA, Hibernate e Docker. Com essas tecnologias, eu apliquei em alguns projetos afim de solidificar o aprendizado e ingressar em um projeto da casa. O projeto em que ingressei utiliza Angular 10 e Spring-boot e é utilizado o SCRUM.",
+      "topics": ["Angular", "Springboot", "Quarkus", "MyBatis", "Docker", "Panache", "JPA", "Hibernate"]
+    },
+    {
+      "date": "Mar/2023",
+      "title": "Trainee Full-Stack",
+      "description": "Após 5 meses de estagiário, fui promovido para Trainee. Assim que fui admitido, ingressei num segundo projeto utilizando Vue e Spring-boot. Em determinado tempo do projeto, surgiu-se a necessidade de criar outra versão do mesmo utilizando Quarkus, o que foi bastante desafiador pois nessa fase do projeto a demanda do cliente estava bem criteriosa e não podia haver erros. Durante esse período, solidifiquei meu conhecimento nessas tecnologias e me tornei um profissional mais capacitado recebendo demandas importantes, determinando prazos com mais precisão e orquestrando minhas atividades com mais responsabilidade.",
+      "topics": ["Angular", "Springboot", "Quarkus", "MyBatis", "Docker", "Hibernate"]
+    },
+    {
+      "date": "Jan/2024",
+      "title": "Desenvolvedor Júnior",
+      "description": "No meu atual cargo, sou Desenvolvedor Júnior onde já possuo maior domínio das minhas skills. Sigo ainda no meu primeiro projeto, porém, com atividades de maiores prioridades e complexidades. A tecnologia do projeto não mudou até então, porém, vem sendo notório que há sempre o que aprender dentro de uma mesma tecnologia, o que torna os desafios do projeto imprevisíveis mas interessantes. Todavia, tenho confiança de que tal requisito será cumprido pelo fato de prezarmos muito pela qualidade pois neste projeto utilizamos boas práticas em seu desenvolvimento.",
+      "topics": ["Angular", "Springboot", "MyBatis", "Boas práticas"]
     }
   ]
 }
