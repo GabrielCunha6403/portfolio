@@ -1,4 +1,5 @@
-import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
+import { Component, ElementRef, HostListener, Input, OnInit } from '@angular/core';
+import { MenuItem } from 'src/app/pages/home/types/types';
 
 @Component({
   selector: 'app-menu',
@@ -7,6 +8,10 @@ import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  @Input() menuSelected: string = '';
+  @Input() menuItems: MenuItem[] = [];
+
+  offset: number = 70;
   themeSelected = 0;
   styles = [
     { primary: '#FF6F61', secondary: '#005F73' },
@@ -40,6 +45,13 @@ export class MenuComponent implements OnInit {
     if(this.themeSelected > this.styles.length - 1) this.themeSelected = 0;
     document.documentElement.style.setProperty('--colorPrimary', this.styles[this.themeSelected].primary);
     document.documentElement.style.setProperty('--colorSecondary', this.styles[this.themeSelected].secondary);
+  }
+
+  setScroll(value: number) {
+    window.scrollTo({
+      top: (value - this.offset),
+      behavior: 'smooth'
+    });
   }
 
 }

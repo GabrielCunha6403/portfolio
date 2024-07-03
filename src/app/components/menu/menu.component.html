@@ -1,17 +1,19 @@
 <div class="menu fixed-top">
   <img src="" alt="">
-  <ul>
-    <li>
-      <button class="neon">iu</button>
-    </li>
-    <li>
-      <button class="neon">iu</button>
-    </li>
-    <li>
-      <button class="neon">iu</button>
-    </li>
-    <li>
-      <button class="neon" (click)="setColorScheme()">Change Schema</button>
-    </li>
-  </ul>
+  <div class="mobile-area">
+    <div class="blur-background">
+      <ul class="menu-list">
+        <li *ngFor="let item of menuItems" [ngClass]="item.id === menuSelected ? 'item-selected' : ''">
+          <button class="neon" (click)="setScroll(item.offsetTop)">{{ item.title }}</button>
+        </li>
+      </ul>
+      <div class="d-flex flex-row">
+        <div class="divider"></div>
+        <button class="neon" (click)="setColorScheme()">Change Schema</button>
+      </div>
+    </div>
+  </div>
+  <button class="neon toggle-menu-mobile">
+    <i class="fas fa-bars"></i>
+  </button>
 </div>
