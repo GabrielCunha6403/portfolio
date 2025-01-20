@@ -57,6 +57,9 @@ button:focus {
   transition-delay: .25s;
   box-shadow: 0 0 6px 2px var(--colorPrimary), 0 0 10px 3px var(--colorPrimary);
 }
+.neon:hover .neon::after {
+  content: none;
+}
 .neon:hover::before {
   transition: .5s;
   right: 100%;

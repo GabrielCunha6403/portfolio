@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
   @Input() menuSelected: string = '';
   @Input() menuItems: MenuItem[] = [];
 
+  menuIsShown: boolean = window.innerWidth > 906;
   offset: number = 70;
   themeSelected = 0;
   styles = [
@@ -48,10 +49,26 @@ export class MenuComponent implements OnInit {
   }
 
   setScroll(value: number) {
+    if(window.innerWidth <= 906) this.menuIsShown = false;
     window.scrollTo({
       top: (value - this.offset),
       behavior: 'smooth'
     });
+  }
+
+  toggleMenu() {
+    if(window.innerWidth <= 906)
+      this.menuIsShown = !this.menuIsShown;
+    else 
+      this.menuIsShown = true;
+  }
+  
+  myFunction(x) {
+    x.classList.toggle("change");
+    if(window.innerWidth <= 906)
+      this.menuIsShown = !this.menuIsShown;
+    else 
+      this.menuIsShown = true;
   }
 
 }
