@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, Input, OnInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, HostListener, Input, OnInit } from '@angular/core';
 import { MenuItem } from 'src/app/pages/home/types/types';
 
 @Component({
@@ -11,6 +11,8 @@ export class MenuComponent implements OnInit {
   @Input() menuSelected: string = '';
   @Input() menuItems: MenuItem[] = [];
 
+  @ViewChild("menu") menu: ElementRef;
+  
   menuIsShown: boolean = window.innerWidth > 906;
   offset: number = 70;
   themeSelected = 0;
@@ -49,7 +51,10 @@ export class MenuComponent implements OnInit {
   }
 
   setScroll(value: number) {
-    if(window.innerWidth <= 906) this.menuIsShown = false;
+    if(window.innerWidth <= 906) {
+      this.menuIsShown = false;
+      this.menu.nativeElement.classList.toggle("change");
+    }
     window.scrollTo({
       top: (value - this.offset),
       behavior: 'smooth'
