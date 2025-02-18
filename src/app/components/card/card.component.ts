@@ -10,6 +10,8 @@ export class CardComponent implements OnInit {
 
   @Input() project: Project;
 
+  public baseHref = document.baseURI;
+
   constructor() { }
 
   ngOnInit(): void {

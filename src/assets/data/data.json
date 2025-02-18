@@ -9,7 +9,7 @@
         {"name": "Site", "url": "https://gabrielcunha6403.github.io/Dazaria/"},
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/Dazaria"}
       ],
-      "urlImage": "../../../assets/imgs/dazaria-logo.png",
+      "urlImage": "assets/imgs/dazaria-logo.png",
       "idProject": 1
     },
     {
@@ -20,7 +20,7 @@
       "urls": [
         {"name": "Site", "url": "https://cbn.opovo.com.br/"}
       ],
-      "urlImage": "../../../assets/imgs/opovo-cbn-logo.png",
+      "urlImage": "assets/imgs/opovo-cbn-logo.png",
       "idProject": 2
     },
     {
@@ -31,7 +31,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/portfolio"}
       ],
-      "urlImage": "../../../assets/imgs/perfil.jpg",
+      "urlImage": "assets/imgs/perfil.jpg",
       "idProject": 2
     },
     {
@@ -42,7 +42,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/Angular_SafeLogin"}
       ],
-      "urlImage": "../../../assets/imgs/safe-login-logo.png",
+      "urlImage": "assets/imgs/safe-login-logo.png",
       "idProject": 2
     },
     {
@@ -53,7 +53,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/Memoteca_Angular"}
       ],
-      "urlImage": "../../../assets/imgs/memoteca.png",
+      "urlImage": "assets/imgs/memoteca.png",
       "idProject": 2
     },
     {
@@ -64,7 +64,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_Quarkus"}
       ],
-      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "urlImage": "assets/imgs/coffee-control.png",
       "idProject": 2
     },
     {
@@ -75,7 +75,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/CoffeeControl_SpringBoot"}
       ],
-      "urlImage": "../../../assets/imgs/coffee-control.png",
+      "urlImage": "assets/imgs/coffee-control.png",
       "idProject": 2
     },
     {
@@ -86,7 +86,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/JPA_Hibernate_treinamento"}
       ],
-      "urlImage": "../../../assets/imgs/programming.jpg",
+      "urlImage": "assets/imgs/programming.jpg",
       "idProject": 2
     },
     {
@@ -97,7 +97,7 @@
       "urls": [
         {"name": "Github", "url": "https://github.com/GabrielCunha6403/ArvoreDeHuffman"}
       ],
-      "urlImage": "../../../assets/imgs/huffman.png",
+      "urlImage": "assets/imgs/huffman.png",
       "idProject": 2
     }
   ],

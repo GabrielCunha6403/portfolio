@@ -1,5 +1,5 @@
 <div class="card-component">
-  <div class="card-image" style="background-image: url({{project.urlImage}});"></div>
+  <div class="card-image" [ngStyle]="{'background-image': 'url(' + baseHref + project.urlImage}"></div>
   <div class="card-body">
     <h3>{{ project.title }}</h3>
     <div class="card-topics">
